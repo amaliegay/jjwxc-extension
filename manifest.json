@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "晋江小助手",
+    "version": "1.0",
+  
+    "description": "一款晋江文学城页面优化工具，只需8秒，让你成为今夜搜JJ爽文最爽的人。该扩展带来极致的搜爽文体验，是绿江读者的好帮手！",
+  
+    "icons": {
+      "96": "icons/96x96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.jjwxc.net/*"],
+        "js": ["jjwxc-extension.js"]
+      } 
+    ]
+  }
+  
